@@ -1,0 +1,54 @@
+.row {
+    justify-content: space-between;
+}
+
+.space {
+    width:4em;
+}
+
+.list ul {
+    padding-left: 20px;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+}
+
+.content-header-text {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-right: 1em;
+    flex-shrink: 0;
+}
+
+.line {
+    background-color: black;
+    height:4px;
+    flex: 1;
+}
+
+#content {
+    width:100%;
+}
+
+#form > div {
+    margin-bottom: 0.5em;
+}
+
+.name-surname, .phone, .email {
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+    
+}
+
+@media only screen and (max-device-width: 600px) {
+
+    .row:nth-child(3) {
+        flex-direction: column-reverse !important;
+    }
+
+}
+

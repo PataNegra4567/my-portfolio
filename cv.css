@@ -1,0 +1,31 @@
+.row {
+    justify-content: space-between;
+}
+
+.space {
+    width:4em;
+}
+
+.list ul {
+    padding-left: 20px;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+}
+
+.content-header-text {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-right: 1em;
+    flex-shrink: 0;
+}
+
+.line {
+    background-color: black;
+    height:4px;
+    flex: 1;
+}
+
